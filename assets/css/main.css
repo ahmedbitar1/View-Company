@@ -313,6 +313,35 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Navmenu - Desktop */
+
+.navbar-brand {
+  display: inline-block;
+  position: relative;
+}
+
+.brand-title {
+  font-size: 28px; /* Adjust for the main text size */
+  font-weight: 700;
+  font-family: "Raleway",  sans-serif;;
+  line-height: 1;
+  display: block;
+  margin-top: 9px;
+}
+
+.brand-subtitle {
+  font-size: 10px; /* Smaller size for the subtitle */
+  font-weight: normal;
+  line-height: 1;
+  margin-left: 5px; /* Align exactly under the 'V' */
+  margin-top: 5px;
+  display: block;
+  color: #555; /* Optional: Adjust color */
+}
+
+.header .logo img{
+  margin-bottom: 7px;
+}
+
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
@@ -1044,6 +1073,13 @@ section,
   font-size: 20px;
 }
 
+.featured-services .service-item img {
+  width: 60px; 
+  height: 60px; 
+  margin-bottom: 8px; 
+  margin-left: 50px;
+}
+
 .featured-services .service-item h4 a {
   color: var(--heading-color);
   transition: ease-in-out 0.3s;
@@ -1392,7 +1428,7 @@ section,
 }
 
 /* .team .member img {
-  margin: -1px -1px 30px -1px;
+  
 } */
 
 .team .member .member-content {
