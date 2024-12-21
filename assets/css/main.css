@@ -1056,6 +1056,7 @@ section,
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   height: 100%;
+  text-align: center;
 }
 
 .featured-services .service-item .icon {
@@ -1077,8 +1078,7 @@ section,
 .featured-services .service-item img {
   width: 60px; 
   height: 60px; 
-  margin-bottom: 8px; 
-  margin-left: 50px;
+  margin-bottom: 8px;
 }
 
 .featured-services .service-item h4 a {
