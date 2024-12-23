@@ -695,7 +695,7 @@ h6 {
   font-size: 13px;
 }
 #myphone {
-  color: darkgoldenrod; 
+  color: darkgoldenrod !important; 
   font-size:12px;
 }
 /*--------------------------------------------------------------
